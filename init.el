@@ -19,7 +19,7 @@
 (vendor 'django-theme)
 (django-theme)
 ; Settings
-(set-default-font "Monaco-16")
+(set-default-font "Monaco-13")
 ;; Font size
 (define-key global-map (kbd "C-+") 'text-scale-increase)
 (define-key global-map (kbd "C--") 'text-scale-decrease)
