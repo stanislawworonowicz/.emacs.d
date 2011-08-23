@@ -1,0 +1,1 @@
+?${1:_}assertMatch(${2:{ok, Pid\}}, ?MODNAME:${3:spawn_link}(${4:}))

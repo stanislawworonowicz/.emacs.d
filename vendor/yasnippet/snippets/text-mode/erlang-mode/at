@@ -1,0 +1,1 @@
+?${1:_}assertThrow(${2:{not_found, _\}}, ?MODNAME:${3:func}(${4:unknown_object}))

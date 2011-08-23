@@ -1,0 +1,1 @@
+?${1:_}assertError(${2:badarith}, ?MODNAME:${3:divide}(${4:X, 0}))

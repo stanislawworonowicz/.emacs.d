@@ -1,0 +1,1 @@
+?${1:_}assertException(${2:throw}, ${3:{not_found, _\}}, ${4: throw({not_found, 42\})})

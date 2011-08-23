@@ -1,0 +1,5 @@
+#name : -ifdef(...). ... -endif.
+# --
+-ifdef(${1:macro}).
+${2}
+-endif.

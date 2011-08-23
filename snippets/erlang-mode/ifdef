@@ -1,0 +1,5 @@
+#name : case ... of ... end
+# --
+-ifdef(${1:macro}).
+$0
+-endif.

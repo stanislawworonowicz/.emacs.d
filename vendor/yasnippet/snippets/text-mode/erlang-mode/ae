@@ -1,0 +1,1 @@
+?${1:_}assertEqual(${2:"ba"}, ?MODNAME:${3:reverse}(${4:"ab"}))

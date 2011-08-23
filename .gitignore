@@ -1,0 +1,5 @@
+.DS_Store
+*.beam
+config.log
+config.status
+auto-save-list/*
