@@ -1,5 +1,6 @@
 .DS_Store
 *.beam
+*.elc
 config.log
 config.status
 auto-save-list/*

@@ -51,7 +51,7 @@
 ; Ask for 'y' or 'n', not 'yes' or 'no
 (fset 'yes-or-no-p 'y-or-n-p)
 ; Disable fringe
-;(set-fringe-mode 0)
+(set-fringe-mode 0)
 ;(global-linum-mode 1)
 (global-visual-line-mode 1)
 
@@ -121,8 +121,8 @@
 ; (require 'flymake_config)
 ; (erlang-flymake-only-on-save)
 
-(add-to-list 'load-path (concat user-emacs-directory "vendor/rinari"))
-(require 'rinari)
+; (add-to-list 'load-path (concat user-emacs-directory "vendor/rinari"))
+; (require 'rinari)
 
 ; (load (concat user-emacs-directory "vendor/nxhtml/autostart.el"))
 ;
@@ -315,3 +315,13 @@ of FILE in the current directory, suitable for creation"
   '(progn
      (set-face-foreground 'magit-diff-add "green3")
      (set-face-foreground 'magit-diff-del "red3")))
+
+
+;; disable line wrap
+;;(setq default-truncate-lines t)
+
+;; make side by side buffers function the same as the main window
+;;(setq truncate-partial-width-windows nil)
+
+;; Add F5 to toggle line wrap
+(global-set-key [f5] 'toggle-truncate-lines)

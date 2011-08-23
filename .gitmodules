@@ -1,0 +1,12 @@
+[submodule "vendor/distel"]
+	path = vendor/distel
+	url = https://github.com/massemanet/distel.git
+[submodule "vendor/fill-column-indicator"]
+	path = vendor/fill-column-indicator
+	url = https://github.com/alpaker/Fill-Column-Indicator.git
+[submodule "vendor/full-ack"]
+	path = vendor/full-ack
+	url = https://github.com/nschum/full-ack.git
+[submodule "vendor/magit"]
+	path = vendor/magit
+	url = https://github.com/magit/magit.git
